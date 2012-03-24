@@ -1,6 +1,6 @@
 %define name graphite-web
-%define version 0.9.7c
-%define unmangled_version 0.9.7c
+%define version 0.9.9
+%define unmangled_version 0.9.9
 %define release 1
 
 Summary: Enterprise scalable realtime graphing
@@ -15,6 +15,7 @@ Prefix: %{_prefix}
 BuildArch: noarch
 Vendor: Chris Davis <chrismd@gmail.com>
 Url: https://launchpad.net/graphite
+Requires: carbon whisper django-tagging bitmap bitmap-fonts-compat pycairo python-sqlite2 python-zope-interface Django
 
 %description
 UNKNOWN
